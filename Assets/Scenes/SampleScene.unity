@@ -235,6 +235,7 @@ GameObject:
   - component: {fileID: 138349513}
   - component: {fileID: 138349517}
   - component: {fileID: 138349518}
+  - component: {fileID: 138349519}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -366,6 +367,20 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 2bb29e8233c0f4592aa7c94dd6b1b2ae, type: 2}
+--- !u!114 &138349519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138349511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf80d0eb05f1c4d81b6b713fb6eba27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveValue: {x: 0, y: 0}
+  speed: 0
 --- !u!1 &600496117
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +643,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194230}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -731,6 +747,19 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1daa120c55dfb4f8594965b6ea67e531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 138349511}
 --- !u!1 &1124872546
 GameObject:
   m_ObjectHideFlags: 0
